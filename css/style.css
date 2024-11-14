@@ -1,0 +1,291 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "PT Serif";
+  src: url(../fonts/PTSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: Quite Chocolatey;
+  src: url(../fonts/Quite\ Chocolatey.ttf);
+}
+
+@font-face {
+  font-family: Couture;
+  src: url(../fonts/couture-bld.otf);
+}
+
+::selection {
+
+  background: rgb(201, 201, 243); /* Safari */
+  
+  }
+  
+::-moz-selection {
+  
+  background: rgb(201, 201, 243); /* Firefox */
+  
+  }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #dd2211;
+  padding-bottom: 160px;
+  background-image: url(../img/Layer\ 13.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header .container {
+  width: 1011px;
+  margin: 0 auto;
+}
+
+header .header__inner {
+  padding-top: 60px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+header .nav__logo__text {
+  font-size: 60px;
+  font-family: "Quite Chocolatey";
+  color: rgb(255, 255, 255);
+  line-height: 0.367;
+}
+
+header nav .nav__info__a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  padding: 12px 15px;
+  transition-duration: 0.15s;
+}
+
+header nav .nav__info__a:hover {
+  background-color: #130e27;
+  border-radius: 5px;
+}
+
+header h1 {
+  font-size: 90px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 0.889;
+  text-transform: uppercase;
+}
+
+header .header__disc {
+  padding-left: 20px;
+}
+
+header .header__disc__text {
+  max-width: 510px;
+  margin-top: 50px;
+  font-size: 21px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+}
+
+.main__services {
+  width: 1011px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+.main__services__title {
+  font-size: 50px;
+  font-family: "Couture";
+  color: rgb(198, 35, 20);
+  font-weight: bold;
+  line-height: 1.6;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+.main__services__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_services__cards__card {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main_services__cards__card .fa {
+  margin-top: 80px;
+  color: #130e27;
+  font-size: 150px;
+  margin-bottom: 25px;
+  transition-duration: 0.2s;
+}
+
+.main_services__cards__card:hover .fa {
+  color: #dd2211;
+}
+
+.main__services__cards__card__text {
+  max-width: 180px;
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 1.4;
+  text-align: center;
+}
+
+.main__story {
+  background-color: #130e27;
+}
+
+.main__story__container {
+  width: 1011px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+}
+
+.main__story__text {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+  max-width: 630px;
+}
+.main__story__a {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 1.273;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #dd2211;
+  padding: 25px 65px;
+  border-radius: 5px;
+  transition-duration: 0.2s;
+}
+
+.main__story__a:hover {
+  background-color: white;
+  color: #dd2211;
+}
+
+.main__prices {
+  background-color: #efefef;
+  padding-bottom: 68px;
+}
+.main__prices__container {
+  width: 1011px;
+  margin: 0 auto;
+}
+
+.main__prices__title {
+  font-size: 50px;
+  font-family: "Montserrat";
+  color: rgb(19, 14, 39);
+  font-weight: bold;
+  line-height: 1.6;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.main__prices__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__prices__cards__item {
+  background-color: white;
+  text-align: center;
+  white-space: nowrap;
+  padding: 35px 55px 0;
+  margin: 0 10px;
+}
+.main__prices__cards__item__text {
+  font-size: 22px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 1.273;
+  text-align: center;
+}
+.main__prices__cards__item__title {
+  font-size: 60px;
+  font-family: "Montserrat";
+  color: rgb(198, 35, 20);
+  font-weight: bold;
+  line-height: 1.333;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+.main__prices__cards__item .main__prices__cards__item__a {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 1.273;
+  background-color: #130e27;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: block;
+  padding: 15px 60px;
+  border-radius: 5px;
+  margin: 33px 0 15px;
+  transition-duration: 0.2s;
+}
+
+.main__prices__cards__item .main__prices__cards__item__a:hover {
+  background-color: #dd2211;
+}
+
+footer {
+  background-color: #130e27;
+}
+
+.footer__inner {
+  width: 1011px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0;
+}
+.footer__text {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+}
+
+.footer__logo__text {
+  font-size: 60px;
+  font-family: "Quite Chocolatey";
+  color: rgb(198, 35, 20);
+}
+
+
+
+
